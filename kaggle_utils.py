@@ -28,7 +28,7 @@ def reduce_mem_usage(df, verbose=True):
 
 import requests
 def send_line_notification(message):
-    line_token = 'YOUR_LINE_TOKEN'  # 終わったら無効化する
+    line_token = 'jjxNkQuafT6poOp56oKDp70scuzhTumOXM3H6mjOmdE'  # 終わったら無効化する
     endpoint = 'https://notify-api.line.me/api/notify'
     message = "\n{}".format(message)
     payload = {'message': message}
